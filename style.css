@@ -1,0 +1,66 @@
+* {
+  text-align: center;
+}
+
+#placar #main {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+  justify-content: center;
+}
+
+#main div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#placar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#main div h2 {
+  padding: 0;
+  border: 0;
+  margin-right: 10px;
+}
+
+div p {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 18px;
+}
+
+#container {
+  display: flex;
+  flex-flow: column;
+  max-width: 400px;
+  align-items: center;
+}
+
+#btn-div {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0 0 0;
+  border: 0;
+  padding: 0;
+}

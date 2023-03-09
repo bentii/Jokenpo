@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Jokenpo</title>
-</head>
-<body>
-    <script src="script.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="container">
+      <div id="btn-div">
+        <button class="btn" id="rock-btn">Rock</button>
+        <button class="btn" id="paper-btn">Paper</button>
+        <button class="btn" id="scissors-btn">Scissors</button>
+      </div>
+      <div id="placar">
+        <h1 id="scoreboard">Scoreboard</h1>
+        <div id="main">
+          <div>
+            <h2>Player:</h2>
+            <p id="playerScore">0</p>
+          </div>
+          <div>
+            <h2>Computer:</h2>
+            <p id="computerScore">0</p>
+          </div>
+        </div>
+        <ul id="ul"></ul>
+      </div>
+    </div>
+  </body>
 </html>
